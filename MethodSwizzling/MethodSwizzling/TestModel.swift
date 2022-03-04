@@ -34,10 +34,14 @@ extension TestModel {
 /*
  Swift 5之前的方法，跟Objective-C中使用方法一样，只是语言用的Swift.
  @objc修饰符可以把属性、类、方法、协议暴露给objective-c runtime。
+ 没有上面的方法好用，不继续研究了
  */
-class TestModel_Legacy: NSObject {
+class TestModel_Legacy: NSObject, ObservableObject {
     @objc dynamic var a: Int = 0
     @objc dynamic var b: Double = 1.01
+    override init() {
+        TestModel_Legacy.swizzle()
+    }
     @objc dynamic func hello() {
         print("hello world")
     }
