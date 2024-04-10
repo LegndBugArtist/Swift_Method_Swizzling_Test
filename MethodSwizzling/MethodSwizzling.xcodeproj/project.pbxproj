@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0F2BF727D24EF10038AA38 /* RuntimeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F2BF627D24EF10038AA38 /* RuntimeTest.swift */; };
 		AE66863227D1EAA600A50537 /* MethodSwizzlingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE66863127D1EAA600A50537 /* MethodSwizzlingApp.swift */; };
 		AE66863427D1EAA600A50537 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE66863327D1EAA600A50537 /* ContentView.swift */; };
 		AE66863627D1EAA800A50537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE66863527D1EAA800A50537 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0F2BF627D24EF10038AA38 /* RuntimeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeTest.swift; sourceTree = "<group>"; };
 		AE66862E27D1EAA600A50537 /* MethodSwizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethodSwizzling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE66863127D1EAA600A50537 /* MethodSwizzlingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodSwizzlingApp.swift; sourceTree = "<group>"; };
 		AE66863327D1EAA600A50537 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				AE66863327D1EAA600A50537 /* ContentView.swift */,
 				AE66863527D1EAA800A50537 /* Assets.xcassets */,
 				AE66863727D1EAA800A50537 /* Preview Content */,
+				AE0F2BF627D24EF10038AA38 /* RuntimeTest.swift */,
 			);
 			path = MethodSwizzling;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0F2BF727D24EF10038AA38 /* RuntimeTest.swift in Sources */,
 				AE66864027D1EE7300A50537 /* TestModel.swift in Sources */,
 				AE66863427D1EAA600A50537 /* ContentView.swift in Sources */,
 				AE66863227D1EAA600A50537 /* MethodSwizzlingApp.swift in Sources */,

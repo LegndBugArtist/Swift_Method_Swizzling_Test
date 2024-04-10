@@ -21,6 +21,7 @@ class TestModel: ObservableObject {
 
 extension TestModel {
     //@_dynamicReplacement是Swift 5新出的
+    //https://github.com/apple/swift/blob/7123d2614b5f222d03b3762cb110d27a9dd98e24/test/attr/dynamicReplacement.swift
     @_dynamicReplacement(for: hello())
     func goodbye(){
         print(a)
